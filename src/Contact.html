@@ -5,57 +5,74 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Me</title>
+    <script src="https://kit.fontawesome.com/186910cb4d.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="bootstrap.min.css">
+
 </head>
 
 <body>
-    <header>
-        <!-- image to be avatar and description -->
-        <img src="images/bemnet_a.jpg" alt="b_avatar">
-        <!-- description as p tag -->
-        <p>Much more than that</p>
-        <nav>
-            <ul>
-                <li><a href="Home.html">Home</a></li>
-                <li><a href="Resume.html">Resume</a></li>
-                <li><a href="AboutMe.html">About</a></li>
-                <li><a href="Contact.html">Contact</a></li>
-                <li><a href="Homage.html">Homage</a></li>
+    <header class="row">
+        <div class="col-sm">
+            <!-- image to be avatar and description -->
+            <img src="images/bemnet_a.jpg" alt="b_avatar" class="rounded-circle img-custom-size" width="100"
+                height="100">
+            <!-- description as p tag -->
+            <p class="d-inline"><em>--"Much more than that"--</em>
+            </p>
+        </div>
+        <nav class="col-sm mt-2 p-1">
+            <ul class="row list-unstyled">
+                <li class="col"><a href="Home.html">Home</a></li>
+                <li class="col"><a href="Resume.html">Resume</a></li>
+                <li class="col"><a href="AboutMe.html">About</a></li>
+                <li class="col"><a href="Contact.html">Contact</a></li>
+                <li class="col"><a href="Homage.html">Homage</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <section>
-            <h2>Contact Me</h2>
-            <p>If you want to contact me, here are the options to do so.</p>
+        <section class="text-center">
+            <h2 class="text-primary">Contact Me</h2>
+            <p class="lead">If you want to contact me, here are the options to do so.</p>
         </section>
         <nav>
             <!-- Icons used as links -->
-            <ul>
-                <li><a href="">LinkedIn</a></li>
-                <li><a href="https://github.com/Bemnet-13/My-Web-Dev-Journey/tree/main">GitHub</a></li>
-                <li><a href="https://t.me/bhma13">Telegram</a></li>
+            <ul class="row justify-content-between list-unstyled pl-4">
+                <li class="col-sm"></li>
+                <li class="col-sm"><a href="https://www.linkedin.com/in/bemnet-aschalew-9868a2295/"><i
+                            class="fa-4x fab fa-linkedin"></i></a>
+                </li>
+                <li class="col-sm"><a href="https://github.com/Bemnet-13/My-Web-Dev-Journey/tree/main"><i
+                            class="fa-4x fab fa-github"></i></a></li>
+                <li class="col-sm"><a href="https://t.me/bhma13"><i class="fa-4x fab fa-telegram-plane"></i></a></li>
             </ul>
         </nav>
     </main>
-    <footer>
-        <article>
-            <h2>About this website</h2>
-            This website is made as part of a project for Web Programming Course. I had fun doing. I hope you do too
-            enjoying it.
+    <footer class="mt-4 p-3">
+        <article class="text-center">
+            <h2 class="text-primary">About this website</h2>
+            <p>
+                This website is made as part of a project for Web Programming Course. I had fun doing. I hope you do too
+                enjoying it.</p>
         </article>
 
-        <section>
-            <h2>Grasp the know-how!</h2>
-
+        <section class="text-center">
+            <h2 class="h4">Grasp the know-how!</h2>
             <p>The concepts used to develop this website are: <br></p>
             <nav>
-                <ul>
-                    <li><a href="https://www.w3schools.com/html/default.asp">HTML Basics</a></li>
-                    <li><a href="https://www.w3schools.com/html/html5_semantic_elements.asp">HTML Semantics</a></li>
-                    <li><a href="https://www.w3schools.com/css/css_intro.asp">CSS Basics</a></li>
-                    <li><a href="https://www.w3schools.com/css/css3_flexbox.asp">CSS Flex</a></li>
-                    <li><a href="https://www.w3schools.com/css/css_grid.asp">CSS Grid</a></li>
-                    <li><a
+                <ul class="row list-unstyled">
+                    <li class="col-sm text-center"><a href="https://www.w3schools.com/html/default.asp">HTML Basics</a>
+                    </li>
+                    <li class="col-sm text-center"><a
+                            href="https://www.w3schools.com/html/html5_semantic_elements.asp">HTML
+                            Semantics</a></li>
+                    <li class="col-sm text-center"><a href="https://www.w3schools.com/css/css_intro.asp">CSS Basics</a>
+                    </li>
+                    <li class="col-sm text-center"><a href="https://www.w3schools.com/css/css3_flexbox.asp">CSS Flex</a>
+                    </li>
+                    <li class="col-sm text-center"><a href="https://www.w3schools.com/css/css_grid.asp">CSS Grid</a>
+                    </li>
+                    <li class="col-sm text-center"><a
                             href="https://www.wix.com/blog/how-to-design-a-website#:~:text=How%20to%20design%20a%20website%201%2001.%20Set,...%207%2007.%20Design%20your%20website%20elements%20">Design
                             Principles</a></li>
 
@@ -70,6 +87,8 @@
             </address>
         </section>
     </footer>
+
+
 </body>
 
 </html>

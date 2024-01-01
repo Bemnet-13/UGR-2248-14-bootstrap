@@ -5,58 +5,76 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Resume</title>
+    <script src="https://kit.fontawesome.com/186910cb4d.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="bootstrap.min.css">
+
 </head>
 
 <body>
-    <header>
-        <!-- image to be avatar and description -->
-        <img src="images/bemnet_a.jpg" alt="b_avatar">
-        <!-- description as p tag -->
-        <p>Much more than that</p>
-        <nav>
-            <ul>
-                <li><a href="Home.html">Home</a></li>
-                <li><a href="Resume.html">Resume</a></li>
-                <li><a href="AboutMe.html">About</a></li>
-                <li><a href="Contact.html">Contact</a></li>
-                <li><a href="Homage.html">Homage</a></li>
+    <header class="row">
+        <div class="col-sm">
+            <!-- image to be avatar and description -->
+            <img src="images/bemnet_a.jpg" alt="b_avatar" class="rounded-circle img-custom-size" width="100"
+                height="100">
+            <!-- description as p tag -->
+            <p class="d-inline"><em>--"Much more than that"--</em>
+            </p>
+        </div>
+        <nav class="col-sm mt-2 p-1">
+            <ul class="row list-unstyled">
+                <li class="col"><a href="Home.html">Home</a></li>
+                <li class="col"><a href="Resume.html">Resume</a></li>
+                <li class="col"><a href="AboutMe.html">About</a></li>
+                <li class="col"><a href="Contact.html">Contact</a></li>
+                <li class="col"><a href="Homage.html">Homage</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <section>
-            <h1>Get to know what I have done before</h1>
-            <p>There are accomplishments and projects that I value the most.</p>
-            <div class="">
-                <!-- icon goes here -->
+        <section class="text-center">
+            <h1 class="text-primary">Get to know what I have done before!</h1>
+            <p class="lead">There are accomplishments and projects that I value the most.</p>
 
-                <a href="Accolades.html">My Accolades</a>
-            </div>
-            <div class="">
-                <!-- icon goes here -->
-                <a href="Portfolio.html">My Portfolio</a>
+            <div class="row justify-content-around">
+                <div class="col-sm">
+                    <!-- icon goes here -->
+                    <i class='text-primary fa-3x fas fa-trophy p-1'></i>
+                    <a href="Accolades.html" class="btn btn-outline-primary">My Accolades</a>
+                </div>
+                <div class="col-sm">
+                    <!-- icon goes here -->
+                    <i class="text-primary fa-2x fas fa-code p-1"></i>
+                    <a href="Portfolio.html" class="btn btn-outline-primary">My Portfolio</a>
+                </div>
             </div>
         </section>
     </main>
 
-    <footer>
-        <article>
-            <h2>About this website</h2>
-            This website is made as part of a project for Web Programming Course. I had fun doing. I hope you do too
-            enjoying it.
+    <footer class="mt-4 p-3">
+        <article class="text-center">
+            <h2 class="text-primary">About this website</h2>
+            <p>
+                This website is made as part of a project for Web Programming Course. I had fun doing. I hope you do too
+                enjoying it.</p>
         </article>
 
-        <section>
-            <h2>Grasp the know-how!</h2>
+        <section class="text-center">
+            <h2 class="h4">Grasp the know-how!</h2>
             <p>The concepts used to develop this website are: <br></p>
             <nav>
-                <ul>
-                    <li><a href="https://www.w3schools.com/html/default.asp">HTML Basics</a></li>
-                    <li><a href="https://www.w3schools.com/html/html5_semantic_elements.asp">HTML Semantics</a></li>
-                    <li><a href="https://www.w3schools.com/css/css_intro.asp">CSS Basics</a></li>
-                    <li><a href="https://www.w3schools.com/css/css3_flexbox.asp">CSS Flex</a></li>
-                    <li><a href="https://www.w3schools.com/css/css_grid.asp">CSS Grid</a></li>
-                    <li><a
+                <ul class="row list-unstyled">
+                    <li class="col-sm text-center"><a href="https://www.w3schools.com/html/default.asp">HTML Basics</a>
+                    </li>
+                    <li class="col-sm text-center"><a
+                            href="https://www.w3schools.com/html/html5_semantic_elements.asp">HTML
+                            Semantics</a></li>
+                    <li class="col-sm text-center"><a href="https://www.w3schools.com/css/css_intro.asp">CSS Basics</a>
+                    </li>
+                    <li class="col-sm text-center"><a href="https://www.w3schools.com/css/css3_flexbox.asp">CSS Flex</a>
+                    </li>
+                    <li class="col-sm text-center"><a href="https://www.w3schools.com/css/css_grid.asp">CSS Grid</a>
+                    </li>
+                    <li class="col-sm text-center"><a
                             href="https://www.wix.com/blog/how-to-design-a-website#:~:text=How%20to%20design%20a%20website%201%2001.%20Set,...%207%2007.%20Design%20your%20website%20elements%20">Design
                             Principles</a></li>
 

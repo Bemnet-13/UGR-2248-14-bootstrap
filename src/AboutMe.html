@@ -5,102 +5,133 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Me</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+
+
 </head>
 
 <body>
-    <header>
-        <!-- image to be avatar and description -->
-        <img src="images/bemnet_a.jpg" alt="b_avatar">
-        <!-- description as p tag -->
-        <p>Much more than that</p>
-        <nav>
-            <ul>
-                <li><a href="Home.html">Home</a></li>
-                <li><a href="Resume.html">Resume</a></li>
-                <li><a href="AboutMe.html">About</a></li>
-                <li><a href="Contact.html">Contact</a></li>
-                <li><a href="Homage.html">Homage</a></li>
+    <header class="row">
+        <div class="col-sm">
+            <!-- image to be avatar and description -->
+            <img src="images/bemnet_a.jpg" alt="b_avatar" class="rounded-circle img-custom-size" width="100"
+                height="100">
+            <!-- description as p tag -->
+            <p class="d-inline"><em>--"Much more than that"--</em>
+            </p>
+        </div>
+        <nav class="col-sm mt-2 p-1">
+            <ul class="row list-unstyled">
+                <li class="col"><a href="Home.html">Home</a></li>
+                <li class="col"><a href="Resume.html">Resume</a></li>
+                <li class="col"><a href="AboutMe.html">About</a></li>
+                <li class="col"><a href="Contact.html">Contact</a></li>
+                <li class="col"><a href="Homage.html">Homage</a></li>
             </ul>
         </nav>
     </header>
 
-    <main>
-        <section>
-            <!-- Chronological events are narrated here -->
-            <hgroup>
-                <h2>My Childhood</h2>
-                <p>I was born in Addis Ababa and raised in Hawassa.My parents have done as good a job anyone can do to
-                    raise a kid. I feel proud and honored that I have the privilege to call the my parents.I have had
-                    all the things a child dreams of in my childhood. With discipline too.</p>
-            </hgroup>
-        </section>
-        <hr>
-        <section>
-            <!-- Chronological events are narrated here -->
-            <hgroup>
-                <h2>My Academic Background </h2>
-                <p>I have not begun my academic as would many peoplke call "a genius". I was just a kid who wanted to be
-                    something more and somehow better than what I eas. I got my wish granted. I believe I had quite
-                    atremendous success for a kid who started as in place I was. When I look back to see the things I
-                    have accomplished, I feel statisfied even by the thought of it.</p>
-            </hgroup>
-        </section>
-        <hr>
-        <section>
-            <!-- Chronological events are narrated here -->
-            <!-- May be some poem -->
-            <hgroup>
-                <h2>My abilities and Hobbies</h2>
-                <p>I firmly believe that I have been bestowed upon quite a lot of gift. From the academics to a an
-                    environment I can flourish in, I think I have innumerable gifts that I have not even scratched the
-                    surface.</p>
-                <p>I have also some hobbies which are entertaining and instructive. I love Photography. I am also fond
-                    of Sports such as Football, Basketball and track and field athletics.I also watch documentaries and
-                    other informative videos.</p>
-            </hgroup>
-        </section>
-        <hr>
-        <div class="video">
-            <!-- Chronological events are narrated here -->
-            <!-- My YouTube video is here -->
-            Here is my first ever YouTube video. It was a video submitted for competing in <a
-                href="https://breakthroughjuniorchallenge.org/">#BreakthroughJuniorChallenge</a>.
-            <video width="320" height="240" controls autoplay muted>
-                <source
-                    src="./images/Bemnet Aschalew _ Quantization in Physics _ #BreakthroughJuniorChallenge _ 2021.mp4"
-                    type="video/mp4">
-            </video>
-            Here is the YouTube video link.
-            <!-- Styled as button -->
-            <a href="https://www.youtube.com/watch?v=qaS38YGSqyo">Watch Video</a>
+    <main class="row p-2">
+        <div class="col-sm">
+            <section>
+                <!-- Chronological events are narrated here -->
+                <hgroup>
+                    <h2 class="h3 text-primary">My Childhood</h2>
+                    <p>I was born in Addis Ababa and raised in Hawassa.My parents have done as good a job anyone can do
+                        to
+                        raise a kid. I feel proud and honored that I have the privilege to call the my parents.I have
+                        had
+                        all the things a child dreams of in my childhood. With discipline too.</p>
+                </hgroup>
+            </section>
+            <hr>
+            <section>
+                <!-- Chronological events are narrated here -->
+                <hgroup>
+                    <h2 class="h3 text-primary">My Academic Background </h2>
+                    <p>I have not begun my academic as would many peoplke call "a genius". I was just a kid who wanted
+                        to be
+                        something more and somehow better than what I eas. I got my wish granted. I believe I had quite
+                        atremendous success for a kid who started as in place I was. When I look back to see the things
+                        I
+                        have accomplished, I feel statisfied even by the thought of it.</p>
+                </hgroup>
+            </section>
+            <hr>
         </div>
-        <hr>
-        <section>
-            <!--  -->
-            <h3>Do you know the journey behind?</h3>
-            <p>Here is an essay that summarizes of my it. Click the link below to download it.</p>
-            <a href="_Bemnet_Aschalew_short_essay.pdf" download="essay.pdf">DOWNLOAD ESSAY</a>
-        </section>
-    </main>
+        <div class="col-sm">
+            <section>
+                <!-- Chronological events are narrated here -->
+                <!-- May be some poem -->
+                <hgroup>
+                    <h2 class="h3 text-primary">My abilities and Hobbies</h2>
+                    <p>I firmly believe that I have been bestowed upon quite a lot of gift. From the academics to a an
+                        environment I can flourish in, I think I have innumerable gifts that I have not even scratched
+                        the
+                        surface.</p>
+                    <p>I have also some hobbies which are entertaining and instructive. I love Photography. I am also
+                        fond
+                        of Sports such as Football, Basketball and track and field athletics.I also watch documentaries
+                        and
+                        other informative videos.</p>
+                </hgroup>
+            </section>
+            <hr>
+            <div class="video">
+                <!-- Chronological events are narrated here -->
+                <!-- My YouTube video is here -->
+                <p>
+                    Here is my first ever YouTube video. It was a video submitted for competing in <a
+                        href="https://breakthroughjuniorchallenge.org/">#BreakthroughJuniorChallenge</a>.
+                </p>
+                <video width="320" height="240" controls autoplay muted>
+                    <source
+                        src="./images/Bemnet Aschalew _ Quantization in Physics _ #BreakthroughJuniorChallenge _ 2021.mp4"
+                        type="video/mp4">
+                </video>
+                <p>
+                    Here is the YouTube video link. </p>
+                <!-- Styled as button -->
+                <a href="https://www.youtube.com/watch?v=qaS38YGSqyo">Watch Video</a>
+            </div>
+            <hr>
 
-    <footer>
-        <article>
-            <h2>About this website</h2>
-            This website is made as part of a project for Web Programming Course. I had fun doing. I hope you do too
-            enjoying it.
+        </div>
+    </main>
+    <section
+        class="bg-light-subtle border border-primary rounded d-flex flex-column mx-auto align-items-center w-50 p-3 sm-25">
+        <!--  -->
+        <h3 class="text-center text-primary">Do you know the journey behind?</h3>
+        <p class="lead">Here is an essay that summarizes of it. Click the link below to download it.</p>
+        <a href="_Bemnet_Aschalew_short_essay.pdf" class="btn btn-outline-primary" download="essay.pdf">DOWNLOAD
+            ESSAY</a>
+    </section>
+
+    <footer class="mt-4 p-3">
+        <article class="text-center">
+            <h2 class="text-primary">About this website</h2>
+            <p>
+                This website is made as part of a project for Web Programming Course. I had fun doing. I hope you do too
+                enjoying it.</p>
         </article>
 
-        <section>
-            <h2>Grasp the know-how!</h2>
+        <section class="text-center">
+            <h2 class="h4">Grasp the know-how!</h2>
             <p>The concepts used to develop this website are: <br></p>
             <nav>
-                <ul>
-                    <li><a href="https://www.w3schools.com/html/default.asp">HTML Basics</a></li>
-                    <li><a href="https://www.w3schools.com/html/html5_semantic_elements.asp">HTML Semantics</a></li>
-                    <li><a href="https://www.w3schools.com/css/css_intro.asp">CSS Basics</a></li>
-                    <li><a href="https://www.w3schools.com/css/css3_flexbox.asp">CSS Flex</a></li>
-                    <li><a href="https://www.w3schools.com/css/css_grid.asp">CSS Grid</a></li>
-                    <li><a
+                <ul class="row list-unstyled">
+                    <li class="col-sm text-center"><a href="https://www.w3schools.com/html/default.asp">HTML Basics</a>
+                    </li>
+                    <li class="col-sm text-center"><a
+                            href="https://www.w3schools.com/html/html5_semantic_elements.asp">HTML
+                            Semantics</a></li>
+                    <li class="col-sm text-center"><a href="https://www.w3schools.com/css/css_intro.asp">CSS Basics</a>
+                    </li>
+                    <li class="col-sm text-center"><a href="https://www.w3schools.com/css/css3_flexbox.asp">CSS Flex</a>
+                    </li>
+                    <li class="col-sm text-center"><a href="https://www.w3schools.com/css/css_grid.asp">CSS Grid</a>
+                    </li>
+                    <li class="col-sm text-center"><a
                             href="https://www.wix.com/blog/how-to-design-a-website#:~:text=How%20to%20design%20a%20website%201%2001.%20Set,...%207%2007.%20Design%20your%20website%20elements%20">Design
                             Principles</a></li>
 
@@ -115,6 +146,7 @@
             </address>
         </section>
     </footer>
+
 </body>
 
 </html>

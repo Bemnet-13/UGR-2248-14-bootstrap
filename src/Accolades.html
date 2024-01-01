@@ -5,48 +5,61 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Accolades</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+
 </head>
 
 <body>
-    <header>
-        <!-- image to be avatar and description -->
-        <img src="images/bemnet_a.jpg" alt="b_avatar">
-        <!-- description as p tag -->
-        <p>Much more than that</p>
-        <nav>
-            <ul>
-                <li><a href="Home.html">Home</a></li>
-                <li><a href="Resume.html">Resume</a></li>
-                <li><a href="AboutMe.html">About</a></li>
-                <li><a href="Contact.html">Contact</a></li>
-                <li><a href="Homage.html">Homage</a></li>
+    <header class="row">
+        <div class="col-sm">
+            <!-- image to be avatar and description -->
+            <img src="images/bemnet_a.jpg" alt="b_avatar" class="rounded-circle img-custom-size" width="100"
+                height="100">
+            <!-- description as p tag -->
+            <p class="d-inline"><em>--"Much more than that"--</em>
+            </p>
+        </div>
+        <nav class="col-sm mt-2 p-1">
+            <ul class="row list-unstyled">
+                <li class="col"><a href="Home.html">Home</a></li>
+                <li class="col"><a href="Resume.html">Resume</a></li>
+                <li class="col"><a href="AboutMe.html">About</a></li>
+                <li class="col"><a href="Contact.html">Contact</a></li>
+                <li class="col"><a href="Homage.html">Homage</a></li>
             </ul>
         </nav>
     </header>
-    <main>
-        <section>
-            <hgroup>
-                <h2>8<sup>th</sup> grade Exam results</h2>
-            </hgroup>
-            <p>I have scored 93.75% with 100 <sup>th</sup> percenile in my region.</p>
-        </section>
-        <section>
-            <hgroup>
-                <h2>10<sup>th</sup> grade Exam results</h2>
-            </hgroup>
-            <p>I have managed to score A's in all the nine subjects I took.</p>
+    <main class="row p-2">
+        <div class="col-sm">
+            <section class="text-center">
+                <hgroup>
+                    <h2 class="h3 text-primary">8<sup>th</sup> grade Exam results</h2>
+                    <p class="lead">I have scored 93.75% with 100 <sup>th</sup> percenile in my region.</p>
 
-        </section>
-        <section>
-            <hgroup>
-                <h2>12<sup>th</sup> grade Exam results</h2>
-            </hgroup>
-            <p>I have scored 636/700 which was the highest mark in Hawassa and the Sidama region that year. It was also
-                ont of the best recorded in the country.</p>
-        </section>
-        <hr>
-        <table>
-            <caption>Results in National Examinations</caption>
+                </hgroup>
+            </section>
+            <section class="text-center">
+                <hgroup>
+                    <h2 class="h3 text-primary">10<sup>th</sup> grade Exam results</h2>
+                    <p class="lead">I have managed to score A's in all the nine subjects I took.</p>
+
+                </hgroup>
+
+            </section>
+            <section>
+                <hgroup class="text-center">
+                    <h2 class="h3 text-primary">12<sup>th</sup> grade Exam results</h2>
+                    <p class="lead">I have scored 636/700 which was the highest mark in Hawassa and the Sidama region
+                        that year. It
+                        was
+                        also
+                        one of the best recorded in the country.</p>
+                </hgroup>
+            </section>
+            <hr>
+        </div>
+        <table class="mt-2 col-sm">
+            <caption class="text-center">Results in National Examinations</caption>
             <tr>
                 <th>Grade</th>
                 <th>Result</th>
@@ -68,32 +81,40 @@
                 <td>Very Great Distinction</td>
             </tr>
         </table>
-        <article>
-            <h4>Get the original certificates of the documents</h4>
-            <!-- Download Essay button repeated -->
-            <a href="Credentials_Bemnet_Aschalew.pdf" download="Credentials_Bemnet_Aschalew.pdf">Download
-                Certifcates</a>
-        </article>
     </main>
-    <footer>
-        <article>
-            <h2>About this website</h2>
-            This website is made as part of a project for Web Programming Course. I had fun doing. I hope you do too
-            enjoying it.
+    <article class="mt-4 text-center">
+        <h4 class="text-primary">Get the original certificates of the documents</h4>
+        <!-- Download Essay button repeated -->
+        <a href="Credentials_Bemnet_Aschalew.pdf" class="btn btn-outline-primary"
+            download="Credentials_Bemnet_Aschalew.pdf">Download
+            Certifcates</a>
+    </article>
+
+    <footer class="mt-4 p-3">
+        <article class="text-center">
+            <h2 class="text-primary">About this website</h2>
+            <p>
+                This website is made as part of a project for Web Programming Course. I had fun doing. I hope you do too
+                enjoying it.</p>
         </article>
 
-        <section>
-            <h2>Grasp the know-how!</h2>
-
+        <section class="text-center">
+            <h2 class="h4">Grasp the know-how!</h2>
             <p>The concepts used to develop this website are: <br></p>
             <nav>
-                <ul>
-                    <li><a href="https://www.w3schools.com/html/default.asp">HTML Basics</a></li>
-                    <li><a href="https://www.w3schools.com/html/html5_semantic_elements.asp">HTML Semantics</a></li>
-                    <li><a href="https://www.w3schools.com/css/css_intro.asp">CSS Basics</a></li>
-                    <li><a href="https://www.w3schools.com/css/css3_flexbox.asp">CSS Flex</a></li>
-                    <li><a href="https://www.w3schools.com/css/css_grid.asp">CSS Grid</a></li>
-                    <li><a
+                <ul class="row list-unstyled">
+                    <li class="col-sm text-center"><a href="https://www.w3schools.com/html/default.asp">HTML Basics</a>
+                    </li>
+                    <li class="col-sm text-center"><a
+                            href="https://www.w3schools.com/html/html5_semantic_elements.asp">HTML
+                            Semantics</a></li>
+                    <li class="col-sm text-center"><a href="https://www.w3schools.com/css/css_intro.asp">CSS Basics</a>
+                    </li>
+                    <li class="col-sm text-center"><a href="https://www.w3schools.com/css/css3_flexbox.asp">CSS Flex</a>
+                    </li>
+                    <li class="col-sm text-center"><a href="https://www.w3schools.com/css/css_grid.asp">CSS Grid</a>
+                    </li>
+                    <li class="col-sm text-center"><a
                             href="https://www.wix.com/blog/how-to-design-a-website#:~:text=How%20to%20design%20a%20website%201%2001.%20Set,...%207%2007.%20Design%20your%20website%20elements%20">Design
                             Principles</a></li>
 
